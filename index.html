@@ -3,24 +3,79 @@
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <title>모바일 랜딩</title>
+        <title>Correct 소개페이지</title>
+
+        <!-- 기본 SEO -->
+        <meta
+            name="description"
+            content="공기압 조절로 자세를 부드럽게 교정하는 스마트 방석, Correct."
+        />
+        <link rel="canonical" href="https://example.com/correct" />
+
+        <!-- Open Graph -->
+        <meta
+            property="og:title"
+            content="Correct — 인공지능기반 자세 교정 방석"
+        />
+        <meta
+            property="og:description"
+            content="공기압 조절로 자세를 부드럽게 교정하는 스마트 방석, Correct."
+        />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://example.com/correct" />
+        <meta property="og:site_name" content="Correct" />
+        <meta property="og:locale" content="ko_KR" />
+        <!-- 권장: 1200x630, < 8MB, 절대 URL -->
+        <meta
+            property="og:image"
+            content="https://example.com/og/correct-1200x630.jpg"
+        />
+        <meta
+            property="og:image:secure_url"
+            content="https://example.com/og/correct-1200x630.jpg"
+        />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="630" />
+        <meta
+            property="og:image:alt"
+            content="Correct 공기압 조절로 자세를 부드럽게 교정하는 스마트 방석, Correct."
+        />
+
+        <!-- Twitter Card -->
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta
+            name="twitter:title"
+            content="Correct — 인공지능기반 자세 교정 방석"
+        />
+        <meta
+            name="twitter:description"
+            content="공기압 조절로 자세를 부드럽게 교정하는 스마트 방석, Correct."
+        />
+        <meta
+            name="twitter:image"
+            content="https://example.com/og/correct-1200x630.jpg"
+        />
+        <!-- 있으면 추가: 브랜드 계정 -->
+        <!-- <meta name="twitter:site" content="@correct_official" /> -->
+
         <style>
             body {
                 margin: 0;
                 background: #ffffff;
             }
             .wrap {
-                max-width: 430px; /* iPhone 15 폭 근처 */
+                max-width: 430px;
                 margin: 0 auto;
-                background: #ffffff; /* 이미지 가장자리 밴딩 방지 */
+                background: #ffffff;
             }
             img {
                 display: block;
                 width: 100%;
-                height: auto; /* 세로 비율 유지 */
+                height: auto;
             }
         </style>
     </head>
+
     <body>
         <main class="wrap">
             <!-- width/height로 고유 비율(420:10000) 선언 -> CLS 방지 -->
