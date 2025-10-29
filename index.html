@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>모바일 랜딩</title>
+        <style>
+            body {
+                margin: 0;
+                background: #ffffff;
+            }
+            .wrap {
+                max-width: 430px; /* iPhone 15 폭 근처 */
+                margin: 0 auto;
+                background: #ffffff; /* 이미지 가장자리 밴딩 방지 */
+            }
+            img {
+                display: block;
+                width: 100%;
+                height: auto; /* 세로 비율 유지 */
+            }
+        </style>
+    </head>
+    <body>
+        <main class="wrap">
+            <!-- width/height로 고유 비율(420:10000) 선언 -> CLS 방지 -->
+            <img src="/crt.svg" alt="crt" width="420" height="10000" />
+        </main>
+    </body>
+</html>
